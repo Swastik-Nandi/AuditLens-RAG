@@ -1,8 +1,8 @@
 # AuditLens-RAG 🔍
 
-### Specialized AI for Indian Taxation & Auditing
+### The Universal AI Assistant for Chartered Accountancy (ICAI)
 
-**AuditLens-RAG** is a Retrieval-Augmented Generation (RAG) system designed to solve the "Hallucination Problem" in general-purpose LLMs when dealing with complex Indian financial regulations. By grounding responses directly in official ICAI (Institute of Chartered Accountants of India) modules, it ensures professional-grade accuracy.
+**AuditLens-RAG** is a comprehensive Retrieval-Augmented Generation (RAG) system designed to serve as a high-fidelity knowledge partner for CA students across all levels—**Foundation, Intermediate, and Final**. By grounding LLM responses directly in the full suite of official ICAI modules, it eliminates hallucinations and provides precise, level-specific guidance.
 
 ---
 
@@ -21,10 +21,15 @@ AuditLens uses a "Grounding" architecture:
 - **Vector Database:** ChromaDB / FAISS
 - **Data Source:** ICAI Board of Studies (BoS) Knowledge Portal
 
-## 📅 Project Roadmap
+## 📅 Universal Roadmap
 - [x] Initial Repository Setup & Architectural Design
-- [ ] Phase 1: Universal Data Ingestion (Foundation, Inter, & Final ICAI Modules)
-- [ ] Phase 2: Metadata Tagging (Categorizing by level and subject to ensure accuracy)
-- [ ] Phase 3: Vector Embedding & Semantic Indexing
-- [ ] Phase 4: Multi-Level RAG Pipeline Implementation
-- [ ] Phase 5: Testing & Validation with real CA Foundation/Inter queries
+- [ ] **Phase 1: Multi-Level Data Ingestion**
+  - Indexing 100+ modules from Foundation, Inter, and Final levels.
+- [ ] **Phase 2: Hierarchical Metadata Tagging**
+  - Implementing logic to ensure Foundation students don't receive complex Final-level interpretations.
+- [ ] **Phase 3: Vector Embedding & Semantic Indexing**
+  - Processing thousands of pages into a searchable high-dimensional vector space.
+- [ ] **Phase 4: Multi-Domain RAG Pipeline**
+  - Specialized retrieval for Law, Taxation, Auditing, and Advanced Accounting.
+- [ ] **Phase 5: User Validation**
+  - Stress-testing with real-world CA Foundation & Inter exam queries.

@@ -23,7 +23,8 @@ AuditLens uses a "Grounding" architecture:
 
 ## 📅 Project Roadmap
 - [x] Initial Repository Setup & Architectural Design
-- [ ] Data Ingestion: Processing Income Tax & Auditing PDF modules
-- [ ] Vector Embedding: Creating a semantic search index
-- [ ] RAG Pipeline: Implementing grounded response logic
-- [ ] Evaluation: Hallucination testing against edge-case tax queries
+- [ ] Phase 1: Universal Data Ingestion (Foundation, Inter, & Final ICAI Modules)
+- [ ] Phase 2: Metadata Tagging (Categorizing by level and subject to ensure accuracy)
+- [ ] Phase 3: Vector Embedding & Semantic Indexing
+- [ ] Phase 4: Multi-Level RAG Pipeline Implementation
+- [ ] Phase 5: Testing & Validation with real CA Foundation/Inter queries
